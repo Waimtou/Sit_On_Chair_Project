@@ -67,7 +67,7 @@ ul {
 
 li {
     display: inline-block;
-
+		margin: 4px;
 }
 
 
@@ -90,6 +90,8 @@ li {
 
 .welcomeText {
 		text-align: center;
+		position: relative;
+		
 
 }
 
@@ -97,9 +99,19 @@ li {
     font-size: 14px;
     color: white;
     background-color: #27c7ab;
-		width: 200px;
+		width: 150px;
 		height: 40px;
+		border-radius: 5px;
 		position: absolute;
+		top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 		float: left;
 
+}
+
+h2 {
+		text-align: center;
 }
